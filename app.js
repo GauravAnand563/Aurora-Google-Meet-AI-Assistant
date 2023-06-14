@@ -18,7 +18,7 @@ puppeteer.use(StealthPlugin());
     const page = await browser.newPage();
     
     // going to sign-in page
-    await googleMeetApi.authentication(page, "assistantaurora563@gmail.com", "Suraj@123");
+    await googleMeetApi.authentication(page, "assistantaurora563@gmail.com", "dsfsdfsdd");
     
     // going to Meet after signing in
     await googleMeetApi.meetLobby(page, "sff-kacq-xhi");
