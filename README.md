@@ -20,6 +20,25 @@ Internally, Aurora is built on the ChatGPT API running on a Google Virtual Machi
 
 - 🤝 Natural Language Processing: With powerful natural language processing capabilities, Aurora can understand and respond to basic queries, allowing for seamless interaction with participants.
 
+## Design 
+
+### Flow Diagram
+![Aurora Flow Diagram](aurora_flow_diagram.png)
+
+### System Architecture
+The system architecture for Aurora, the Google Meet assistant, can be divided into the following components:
+
+| Component                | Description                                                                                          |
+|--------------------------|------------------------------------------------------------------------------------------------------|
+| User Interface           | Facilitates user interactions with Aurora, including sending meeting invites and issuing commands.    |
+| Scheduler                | Manages meeting scheduling and triggers Aurora's actions at the designated time.                     |
+| Google Account Manager   | Handles the dedicated Google account used by Aurora to join meetings.                                 |
+| Puppeteer Integration    | Interacts with the Google Meet web application using Puppeteer for automation.                        |
+| Text-to-Speech (TTS) Engine  | Converts text-based content into spoken audio for Aurora's communication with meeting participants. |
+| Command Processor        | Interprets commands from the host via chat, generates responses, and executes requested actions.      |
+| Virtual Microphone Integration | Interfaces with virtual microphone software to simulate Aurora's voice in the meeting.             |
+
+
 ## Getting Started 🚀
 
 To get started with Project Aurora, follow these steps:
@@ -50,7 +69,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact Us 📧
 
-Have questions or feedback? Feel free to reach out to our team at [projectaurora@example.com](mailto:projectaurora@example.com). We'd love to hear from you!
+Have questions or feedback? Feel free to reach out.
 
 ---
 
